@@ -24,7 +24,7 @@
 - Abra um pull request para o repositório original
 
 ## Licença
-Este projeto é licenciado sob a licença MIT. Para mais informações, consulte o arquivo LICENSE.
+Este projeto é licenciado sob a licença MIT. Para mais informações, consulte o arquivo LICENSE na tree.
 
 ## Authors
 
