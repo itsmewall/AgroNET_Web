@@ -7,8 +7,8 @@
 ## Requisitos
 - modificando estrutura...
 
-## Como executar o projeto
-- modificando estrutura...
+## Como executar o projeto 
+- execute o comando 'node install-dependencies.js'
 
 ## Como contribuir
 - Crie um fork deste repositório em sua conta do Github

@@ -25,7 +25,7 @@ const Cotacoes = () => {
       <h3>Dólar</h3>
         {cotacao ? (
           <div className="cotacao-data">
-            <p><strong>Timestamp:</strong> {cotacao.timestamp}</p>
+            <p><strong>Última Atualização:</strong> {cotacao.timestamp}</p>
             <p><strong>Abertura:</strong> {cotacao.open}</p>
             <p><strong>Máxima:</strong> {cotacao.high}</p>
             <p><strong>Mínima:</strong> {cotacao.low}</p>
