@@ -5,15 +5,10 @@
 - O aplicativo conta com diversas funcionalidades, como uma página inicial com atualizações diárias, uma página de consulta de preços de grãos e uma página de interação e classificados.
 
 ## Requisitos
-- Flutter 2.0.6 ou superior
-- Android Studio ou Visual Studio Code
-- Emulador Android ou iOS para testes
+- modificando estrutura...
 
 ## Como executar o projeto
-- Clone este repositório em sua máquina local
-- Abra o projeto no Android Studio ou no Visual Studio Code
-- Configure o emulador de sua preferência para testar o aplicativo
-- Execute o aplicativo através do comando flutter run
+- modificando estrutura...
 
 ## Como contribuir
 - Crie um fork deste repositório em sua conta do Github

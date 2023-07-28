@@ -1,0 +1,78 @@
+/* src/pages/Home.css */
+.home {
+  padding-top: 60px; /* Garante que a barra superior não sobreponha o conteúdo */
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.section {
+  margin-bottom: 40px;
+}
+
+.section h2 {
+  margin-bottom: 20px;
+}
+
+.highlight-cards {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.card {
+  flex: 1;
+  border: 1px solid #ccc;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease-in-out;
+}
+
+.card img {
+  width: 100%;
+  height: auto;
+  border-radius: 4px;
+  margin-bottom: 10px;
+}
+
+.card h3 {
+  margin-bottom: 10px;
+}
+
+.news-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 20px;
+}
+
+.quick-quotes-list {
+  list-style: none;
+  padding: 0;
+}
+
+.quick-quotes-item {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #ccc;
+  padding: 10px 0;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease-in-out;
+}
+
+.quick-quotes-item:last-child {
+  border-bottom: none;
+}
+
+.quick-quotes-item span {
+  font-weight: bold;
+}
+
+/* Estilização adicional para os cards quando o mouse passar por cima */
+.card:hover,
+.quick-quotes-item:hover {
+  transform: translateY(-4px);
+}
