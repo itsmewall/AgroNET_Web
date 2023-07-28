@@ -1,0 +1,26 @@
+/* src/styles/HighlightCard.css */
+
+.highlight-card {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+  }
+  
+  .icon {
+    margin-right: 20px;
+    color: #007bff; /* Cor para o ícone */
+  }
+  
+  h3 {
+    font-size: 20px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  p {
+    font-size: 16px;
+    color: #555;
+  }
+  

@@ -1,14 +1,19 @@
 // src/components/HighlightCard.js
 import React from 'react';
+import { GiWheat, GiFarmTractor, GiCow } from 'react-icons/gi';
 
-function HighlightCard({ imageSrc, title, description }) {
+const HighlightCard = () => {
   return (
-    <div className="card">
-      <img src={imageSrc} alt={title} />
-      <h3>{title}</h3>
-      <p>{description}</p>
+    <div className="highlight-card">
+      <div className="icon">
+        <GiWheat size={50} />
+      </div>
+      <div className="content">
+        <h3>Produção de Trigo</h3>
+        <p>Informações sobre a produção de trigo no Brasil.</p>
+      </div>
     </div>
   );
-}
+};
 
 export default HighlightCard;
